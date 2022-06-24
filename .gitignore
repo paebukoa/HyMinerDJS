@@ -3,3 +3,4 @@ replit.nix
 adaptDatabase.js
 .env
 database/
+node_modules/
