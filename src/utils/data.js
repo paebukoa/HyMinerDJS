@@ -135,12 +135,14 @@ const data = {
 		oak_sapling: {
 			name: 'Oak sapling',
 			id: 'hyminer_items:oak_sapling',
-			icon: '<:oak_sapling:989674333620273224>'
+			icon: '<:oak_sapling:989674333620273224>',
+			price: 128
 		},
 		apple: {
 			name: 'Apple',
 			id: 'hyminer_items:apple',
-			icon: '<:apple:989675641102303252>'
+			icon: '<:apple:989675641102303252>',
+			price: 150
 		}
 	},
 	hyminer_tools: {

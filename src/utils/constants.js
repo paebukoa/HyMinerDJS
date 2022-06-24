@@ -1,4 +1,5 @@
 const discordjs = require('discord.js')
+const dotenv = require('dotenv').config()
 
 const paths = {
 	events: 'events',

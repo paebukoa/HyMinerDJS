@@ -1,7 +1,5 @@
 module.exports = {
 	run: async d => {
-		console.log('added')
-		
 		d.client.on('messageCreate', async message => {
 			const data = d.utils.open(d)
 			
@@ -17,8 +15,6 @@ module.exports = {
 			data.args = msg.args
 
 			let prefix = d.configDb.get("prefix", `_${data.guild.id}`)
-
-			console.log('prefix ' + prefix)
 			
 			if (!cmdPart.startsWith(prefix)) return;
 
